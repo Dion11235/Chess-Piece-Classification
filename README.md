@@ -18,7 +18,7 @@ A quick look into the dataset:
 Clearly the data contains not only real pieces but also some cartoon figures, 
 that would help the model to generalize and consider the small features specific to the pieces. But the dataset is small,  
 >training data sizes :  ['Bishop' : 66, 'Queen' : 60, 'Pawn' : 84, 'Rook' : 80, 'King' : 60, 'Knight' : 82]  
->validation data sizes :  ['Bishop' : 21, 'Queen' : 19, 'Pawn' : 26, 'Rook' : 25, 'King' : 19, 'Knight' : 26] [21, 19, 26, 25, 19, 26]  
+>validation data sizes :  ['Bishop' : 21, 'Queen' : 19, 'Pawn' : 26, 'Rook' : 25, 'King' : 19, 'Knight' : 26] 
 
 To deal with the less data issue, Data Augmentations have been used.
 
@@ -31,8 +31,6 @@ Now just a zero initialization may not be practical always when we have such a s
 We need a better headstart instead. So Using Transfer Learning seems a better approach, as this gives 
 a set of pretrained weights on a bigger dataset and that can be used as the initial point in our loss surface.
 
-<p align="right">
-  <img src="https://github.com/Dion11235/Chess-Piece-Classification/blob/main/images/earthquake_sgd.gif" alt="animated" />
-</p>
-Now what we are seeing 
+<img align="right" src="https://github.com/Dion11235/Chess-Piece-Classification/blob/main/images/earthquake_sgd.gif"> 
+Now what we will be doing  
 
