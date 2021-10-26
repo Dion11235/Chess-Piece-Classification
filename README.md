@@ -31,6 +31,8 @@ Now just a zero initialization may not be practical always when we have such a s
 We need a better headstart instead. So Using Transfer Learning seems a better approach, as this gives 
 a set of pretrained weights on a bigger dataset and that can be used as the initial point in our loss surface.
 
-<img align="right" src="https://github.com/Dion11235/Chess-Piece-Classification/blob/main/images/earthquake_sgd.gif"> 
-Now what we will be doing  
+
+<img align="right" src="https://github.com/Dion11235/Chess-Piece-Classification/blob/main/images/earthquake_sgd.gif">   
+
+Now what we will be doing hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkkggghdgdhnfjhd 
 
